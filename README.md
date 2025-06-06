@@ -1,13 +1,13 @@
 # image-luminosity
 ## Install
 ```
-$ npm i --save image-luminosity
+$ npm i image-luminosity
 ```
 
 ## Usage
 ```
-var imgLum = require('image-luminosity');
-var image = '/directory/to/img';
+import imgLum from 'image-luminosity';
+const image = '/directory/to/img';
 
 imgLum(image, function(value) {
         console.log(value);
